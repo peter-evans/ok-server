@@ -1,9 +1,9 @@
 # ok-server
+[![](https://images.microbadger.com/badges/image/peterevans/ok-server.svg)](https://microbadger.com/images/peterevans/ok-server)
+
 Docker image for a simple server that responds to any request with "OK"
 
 This image was created for use as a cluster health check.
-
-[![](https://images.microbadger.com/badges/image/peterevans/ok-server.svg)](https://microbadger.com/images/peterevans/ok-server "Get your own image badge on microbadger.com")
 
 ## Supported tags and respective `Dockerfile` links
 
