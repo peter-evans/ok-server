@@ -1,0 +1,13 @@
+name: ok-server test
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Build the Docker image
+      run: docker build -t ok-server .
+    - name: Run Docker container
+      run: docker run -d -p 8080:8080 --name ok-server ok-server
+    - name: Test endpoint
+      run: docker run --network container:ok-server appropriate/curl --retry 10 --retry-connrefused http://localhost:8080/

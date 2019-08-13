@@ -7,7 +7,7 @@ This image was created for use as a [Kubernetes](https://kubernetes.io/) cluster
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.0.1`, `1.0`, `latest`  (*1.0/Dockerfile*)](https://github.com/peter-evans/ok-server/tree/master/1.0)
+- [`1.0.1`, `1.0`, `latest`  (*1.0/Dockerfile*)](https://github.com/peter-evans/ok-server/tree/master)
 
 ## Usage
 Run:
